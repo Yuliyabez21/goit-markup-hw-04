@@ -572,6 +572,7 @@ overflow: hidden;
 .footer-container {
     display: flex;
     gap: 120px;
+    align-items: baseline;
     /* padding: 100px 1020px 100px 156px; */
 }
 
