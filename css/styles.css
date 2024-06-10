@@ -158,7 +158,7 @@ color: #404bbf;
 }
 
 .footer-social {
-    
+
 }
 
 .address {
@@ -418,10 +418,6 @@ padding: 32px 0;
     background-color: #404bbf;
 }
 
-.team-social-item:hover {
-    fill: #31d0aa;
-}
-
 .team-social-list {
 display: flex;
 justify-content: center;
@@ -656,9 +652,25 @@ font-weight: 500;
 }
 
 .address-footer-item {
-    
+    width: 40px;
+    height: 40px;
+}
+
+.address-footer-link:hover {
+    background-color: #31d0aa;
+}
+
+.address-footer-link:focus {
+    background-color: #31d0aa;
 }
 
 .address-footer-link {
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
