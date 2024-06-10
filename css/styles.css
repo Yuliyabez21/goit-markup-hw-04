@@ -234,10 +234,6 @@ position: relative;
 
 }
 
-.team-social-item:hover {
-    fill: #31d0aa;
-}
-
 .hero-btn:focus {
     background: #404bbf;
 
@@ -407,6 +403,18 @@ padding: 32px 0;
     margin-left: 16px; */
 }
 
+.team-link:hover {
+    background-color: #404bbf;
+}
+
+.team-link:focus {
+    background-color: #404bbf;
+}
+
+.team-social-item:hover {
+    fill: #31d0aa;
+}
+
 .team-social-list {
 display: flex;
 justify-content: center;
@@ -417,13 +425,14 @@ gap: 24px;
 
 .team-social-item {
     width: 40px;
-        height: 40px;
+    height: 40px;
     background-color: #4d5ae5;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-        gap: 24px;
+    gap: 24px;
+    
     
 }
 
@@ -434,6 +443,8 @@ width: 100%;
     align-items: center; 
     justify-content: center;
     border-radius: 50%;
+    background-color: #4d5ae5;
+    fill: #f4f4fd;
 
 }
 
